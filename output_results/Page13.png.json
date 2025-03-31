@@ -1,0 +1,109 @@
+{
+    "image": "Page13.png",
+    "good_components": [
+        {
+            "label": "good_large_card",
+            "bbox": [
+                455,
+                319,
+                919,
+                648
+            ]
+        },
+        {
+            "label": "good_general_tag",
+            "bbox": [
+                172,
+                266,
+                236,
+                297
+            ]
+        },
+        {
+            "label": "good_large_card",
+            "bbox": [
+                942,
+                319,
+                1406,
+                646
+            ]
+        },
+        {
+            "label": "good_small_card",
+            "bbox": [
+                443,
+                663,
+                917,
+                728
+            ]
+        },
+        {
+            "label": "good_logo",
+            "bbox": [
+                44,
+                44,
+                152,
+                91
+            ]
+        },
+        {
+            "label": "good_disabled_button",
+            "bbox": [
+                1211,
+                170,
+                1296,
+                213
+            ]
+        }
+    ],
+    "bad_components": [
+        {
+            "label": "bad_general_tag",
+            "bbox": [
+                271,
+                215,
+                336,
+                247
+            ]
+        },
+        {
+            "label": "bad_static_button",
+            "bbox": [
+                1318,
+                166,
+                1404,
+                211
+            ]
+        },
+        {
+            "label": "bad_static_button",
+            "bbox": [
+                1321,
+                50,
+                1406,
+                93
+            ]
+        },
+        {
+            "label": "bad_large_card",
+            "bbox": [
+                937,
+                323,
+                1409,
+                646
+            ]
+        }
+    ],
+    "clear_space_validation": [
+        {
+            "bbox": [
+                44,
+                44,
+                152,
+                91
+            ],
+            "valid": true
+        }
+    ],
+    "message": "Detected 4 bad components. Consider improving: ['bad_general_tag', 'bad_static_button', 'bad_static_button', 'bad_large_card']."
+}

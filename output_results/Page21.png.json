@@ -1,0 +1,91 @@
+{
+    "image": "Page21.png",
+    "good_components": [
+        {
+            "label": "good_pie_chart",
+            "bbox": [
+                604,
+                292,
+                1048,
+                737
+            ]
+        },
+        {
+            "label": "good_logo",
+            "bbox": [
+                100,
+                29,
+                195,
+                75
+            ]
+        },
+        {
+            "label": "good_static_button",
+            "bbox": [
+                68,
+                205,
+                155,
+                250
+            ]
+        },
+        {
+            "label": "good_disabled_button",
+            "bbox": [
+                1301,
+                30,
+                1387,
+                75
+            ]
+        }
+    ],
+    "bad_components": [
+        {
+            "label": "bad_logo",
+            "bbox": [
+                1360,
+                452,
+                1412,
+                569
+            ]
+        },
+        {
+            "label": "bad_static_button",
+            "bbox": [
+                68,
+                271,
+                154,
+                317
+            ]
+        },
+        {
+            "label": "bad_static_button",
+            "bbox": [
+                1171,
+                31,
+                1257,
+                74
+            ]
+        },
+        {
+            "label": "bad_static_button",
+            "bbox": [
+                70,
+                141,
+                156,
+                184
+            ]
+        }
+    ],
+    "clear_space_validation": [
+        {
+            "bbox": [
+                100,
+                29,
+                195,
+                75
+            ],
+            "valid": false
+        }
+    ],
+    "message": "Detected 4 bad components. Consider improving: ['bad_logo', 'bad_static_button', 'bad_static_button', 'bad_static_button']."
+}

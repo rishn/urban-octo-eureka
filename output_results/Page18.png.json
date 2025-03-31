@@ -1,0 +1,163 @@
+{
+    "image": "Page18.png",
+    "good_components": [
+        {
+            "label": "good_static_button",
+            "bbox": [
+                1320,
+                37,
+                1407,
+                84
+            ]
+        },
+        {
+            "label": "good_success_tag",
+            "bbox": [
+                41,
+                476,
+                253,
+                529
+            ]
+        },
+        {
+            "label": "good_error_tag",
+            "bbox": [
+                38,
+                737,
+                252,
+                785
+            ]
+        },
+        {
+            "label": "good_small_card",
+            "bbox": [
+                361,
+                640,
+                833,
+                704
+            ]
+        },
+        {
+            "label": "good_static_button",
+            "bbox": [
+                381,
+                123,
+                466,
+                165
+            ]
+        },
+        {
+            "label": "good_logo",
+            "bbox": [
+                36,
+                8,
+                147,
+                64
+            ]
+        },
+        {
+            "label": "good_disabled_button",
+            "bbox": [
+                484,
+                123,
+                569,
+                164
+            ]
+        },
+        {
+            "label": "good_small_card",
+            "bbox": [
+                1034,
+                644,
+                1319,
+                703
+            ]
+        },
+        {
+            "label": "good_small_card",
+            "bbox": [
+                861,
+                645,
+                1318,
+                703
+            ]
+        }
+    ],
+    "bad_components": [
+        {
+            "label": "bad_status_tag",
+            "bbox": [
+                38,
+                610,
+                254,
+                662
+            ]
+        },
+        {
+            "label": "bad_large_card",
+            "bbox": [
+                858,
+                292,
+                1322,
+                621
+            ]
+        },
+        {
+            "label": "bad_large_card",
+            "bbox": [
+                370,
+                293,
+                832,
+                621
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                40,
+                345,
+                254,
+                400
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                39,
+                672,
+                254,
+                726
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                45,
+                545,
+                249,
+                595
+            ]
+        },
+        {
+            "label": "bad_small_card",
+            "bbox": [
+                858,
+                646,
+                1305,
+                703
+            ]
+        }
+    ],
+    "clear_space_validation": [
+        {
+            "bbox": [
+                36,
+                8,
+                147,
+                64
+            ],
+            "valid": false
+        }
+    ],
+    "message": "Detected 7 bad components. Consider improving: ['bad_status_tag', 'bad_large_card', 'bad_large_card', 'bad_success_tag', 'bad_success_tag', 'bad_success_tag', 'bad_small_card']."
+}

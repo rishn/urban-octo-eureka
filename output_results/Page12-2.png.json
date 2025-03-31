@@ -1,0 +1,91 @@
+{
+    "image": "Page12-2.png",
+    "good_components": [
+        {
+            "label": "good_static_button",
+            "bbox": [
+                1323,
+                30,
+                1410,
+                75
+            ]
+        },
+        {
+            "label": "good_static_button",
+            "bbox": [
+                914,
+                279,
+                1000,
+                323
+            ]
+        },
+        {
+            "label": "good_logo",
+            "bbox": [
+                49,
+                31,
+                161,
+                83
+            ]
+        },
+        {
+            "label": "good_donut_chart",
+            "bbox": [
+                455,
+                413,
+                891,
+                855
+            ]
+        },
+        {
+            "label": "good_general_tag",
+            "bbox": [
+                180,
+                274,
+                246,
+                308
+            ]
+        },
+        {
+            "label": "good_disabled_button",
+            "bbox": [
+                912,
+                209,
+                1001,
+                256
+            ]
+        }
+    ],
+    "bad_components": [
+        {
+            "label": "bad_pie_chart",
+            "bbox": [
+                955,
+                424,
+                1382,
+                857
+            ]
+        },
+        {
+            "label": "bad_general_tag",
+            "bbox": [
+                299,
+                223,
+                361,
+                255
+            ]
+        }
+    ],
+    "clear_space_validation": [
+        {
+            "bbox": [
+                49,
+                31,
+                161,
+                83
+            ],
+            "valid": false
+        }
+    ],
+    "message": "Detected 2 bad components. Consider improving: ['bad_pie_chart', 'bad_general_tag']."
+}

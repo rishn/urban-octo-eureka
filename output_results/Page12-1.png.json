@@ -1,0 +1,145 @@
+{
+    "image": "Page12-1.png",
+    "good_components": [
+        {
+            "label": "good_success_tag",
+            "bbox": [
+                38,
+                476,
+                254,
+                530
+            ]
+        },
+        {
+            "label": "good_error_tag",
+            "bbox": [
+                38,
+                736,
+                251,
+                785
+            ]
+        },
+        {
+            "label": "good_logo",
+            "bbox": [
+                50,
+                29,
+                162,
+                82
+            ]
+        },
+        {
+            "label": "good_pie_chart",
+            "bbox": [
+                690,
+                319,
+                1100,
+                734
+            ]
+        },
+        {
+            "label": "good_logo",
+            "bbox": [
+                466,
+                141,
+                585,
+                198
+            ]
+        }
+    ],
+    "bad_components": [
+        {
+            "label": "bad_status_tag",
+            "bbox": [
+                38,
+                610,
+                254,
+                660
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                37,
+                671,
+                254,
+                726
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                39,
+                346,
+                254,
+                400
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                47,
+                545,
+                248,
+                595
+            ]
+        },
+        {
+            "label": "bad_general_tag",
+            "bbox": [
+                301,
+                222,
+                363,
+                255
+            ]
+        },
+        {
+            "label": "bad_logo",
+            "bbox": [
+                1218,
+                832,
+                1410,
+                917
+            ]
+        },
+        {
+            "label": "bad_general_tag",
+            "bbox": [
+                182,
+                275,
+                245,
+                307
+            ]
+        },
+        {
+            "label": "bad_error_tag",
+            "bbox": [
+                41,
+                413,
+                256,
+                464
+            ]
+        }
+    ],
+    "clear_space_validation": [
+        {
+            "bbox": [
+                50,
+                29,
+                162,
+                82
+            ],
+            "valid": false
+        },
+        {
+            "bbox": [
+                466,
+                141,
+                585,
+                198
+            ],
+            "valid": false
+        }
+    ],
+    "message": "Detected 8 bad components. Consider improving: ['bad_status_tag', 'bad_success_tag', 'bad_success_tag', 'bad_success_tag', 'bad_general_tag', 'bad_logo', 'bad_general_tag', 'bad_error_tag']."
+}

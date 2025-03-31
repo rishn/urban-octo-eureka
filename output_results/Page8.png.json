@@ -1,0 +1,72 @@
+{
+    "image": "Page8.png",
+    "good_components": [
+        {
+            "label": "good_error_tag",
+            "bbox": [
+                938,
+                275,
+                1153,
+                328
+            ]
+        },
+        {
+            "label": "good_donut_chart",
+            "bbox": [
+                444,
+                521,
+                837,
+                919
+            ]
+        },
+        {
+            "label": "good_error_tag",
+            "bbox": [
+                939,
+                343,
+                1151,
+                394
+            ]
+        },
+        {
+            "label": "good_success_tag",
+            "bbox": [
+                949,
+                209,
+                1148,
+                261
+            ]
+        }
+    ],
+    "bad_components": [
+        {
+            "label": "bad_donut_chart",
+            "bbox": [
+                895,
+                524,
+                1287,
+                917
+            ]
+        },
+        {
+            "label": "bad_logo",
+            "bbox": [
+                94,
+                25,
+                203,
+                76
+            ]
+        },
+        {
+            "label": "bad_success_tag",
+            "bbox": [
+                950,
+                405,
+                1148,
+                459
+            ]
+        }
+    ],
+    "clear_space_validation": [],
+    "message": "Detected 3 bad components. Consider improving: ['bad_donut_chart', 'bad_logo', 'bad_success_tag']."
+}
