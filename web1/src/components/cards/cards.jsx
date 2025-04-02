@@ -39,8 +39,8 @@ function Card({ color, index }) {
         <div className="card-content">
           <div className="card-footer">
             <div className="card-actions">
-              <button className={buttonClass}>Action 1</button>
-              <button className={buttonClass}>Action 2</button>
+              <p className={buttonClass}>Action 1</p>
+              <p className={buttonClass}>Action 2</p>
             </div>
             <div className="card-icons">
               <FaPlus className="card-icon" />
