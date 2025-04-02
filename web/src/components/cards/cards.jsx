@@ -35,8 +35,8 @@ function Card() {
         <div className="card-content">
           <div className="card-footer">
             <div className="card-actions">
-              <button className="action-btn">Action 1</button>
-              <button className="action-btn">Action 2</button>
+              <p className="action-btn">Action 1</p>
+              <p className="action-btn">Action 2</p>
             </div>
             <div className="card-icons">
               <FaPlus className="card-icon" />

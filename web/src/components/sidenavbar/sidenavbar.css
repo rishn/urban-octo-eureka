@@ -1,3 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/roobert");
+
+body {
+  font-family: "Roobert";
+}
+
 .App {
   display: flex;
   flex-direction: column;
